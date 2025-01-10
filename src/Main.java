@@ -1,15 +1,22 @@
 public class Main {
-    public static void main(String... args) {
+    public static void main(String args) {
 
-       String [] nomes = {"n1", "n2", "n3", "n4", "n5"};
+       String  nome = "A";
+       String nomes ="b";
+       String nomes2 = "c";
 
-        imprimirNomes(nomes);
+        imprimirNomes(nome,nomes);
 
     }
 
-    public static void imprimirNomes(String... nomes){
-        for(int i = 0; i < nomes.length; i++){
-            System.out.println(nomes[i]);
+
+
+    public static void imprimirNomes(String ... nome ){
+        for(int i = 0; i < nome.length; i++){
+            System.out.println(nome[i]);
         }
     }
+
+
+
 }
